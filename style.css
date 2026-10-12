@@ -1,6 +1,12 @@
 body {
-    background: pink;
+    background: linear-gradient(135deg, #14 1e30, #243b55);
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px;
+    font-family: "Orbit", sans-serif;
 }
+
 
 .card {
     width: 260px;
@@ -38,4 +44,9 @@ body {
     padding: 4px 10p x;
     border-radius: 999px;
     font-weight: bold;
+}
+
+h1,
+footer {
+    color: #fff;
 }
